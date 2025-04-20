@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+   // height: min-content;
+}
+.photo{
+    width: 30%;  
+    //height: fit-content;
+}
+img{
+    width: 100%;
+    object-fit: contain;
+}
